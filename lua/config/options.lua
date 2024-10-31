@@ -20,3 +20,9 @@ opt.signcolumn = "no"
 
 -- Use tabs instead of translate to spaces
 opt.expandtab = false
+
+-- set tab to 8 spaces width
+opt.tabstop = 8
+
+-- Number of spaces to use for each step of (auto)indent.  Used for |'cindent'|, |>>|, |<<|, etc.
+opt.shiftwidth = 8
