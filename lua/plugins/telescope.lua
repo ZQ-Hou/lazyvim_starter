@@ -29,7 +29,7 @@ return {
         -- path display in result window
         path_display = {
           -- set path display customed shorten format
-          shorten = { len = 2, exclude = {1, -1} },
+          shorten = { len = 20, exclude = {1, -1} },
           -- "shorten", -- set shorten format
           -- "smart", -- set smart format
         },
