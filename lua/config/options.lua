@@ -14,7 +14,9 @@ opt.winheight = 99
 opt.wrap = true
 
 -- Enable signcolumn all the time: https://stackoverflow.com/questions/78364323/im-having-trouble-with-flickering-in-lspsaga-nvim
-opt.signcolumn = "yes"
+-- opt.signcolumn = "yes:3"
+-- opt.signcolumn = "auto"
+opt.signcolumn = "no"
 
 -- Use tabs instead of translate to spaces
 opt.expandtab = false
